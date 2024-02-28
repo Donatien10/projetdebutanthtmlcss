@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+.laGrandeDiv{
+width: 500px;
+height: 630px;
+background: blue;
+display: grid;
+justify-content: center;
+
+
+}
+.divTitre{
+    width: 400px;
+    height: 80px;
+    background: white;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    
+    font-size: 3em;
+    font-family: "inter",sans-serif;
+}
+.divProfil{
+    width: 400px;
+    height: 150px;
+    margin-top: -230px;
+    display: flex;
+    justify-content: center;
+
+
+}
+.imageProfil{
+    width: 150px;
+height: 150px;
+}
