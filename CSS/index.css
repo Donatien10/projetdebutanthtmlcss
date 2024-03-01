@@ -11,7 +11,7 @@ body{
 .laGrandeDiv{
 width: 500px;
 height: 630px;
-background: blue;
+background: rebeccapurple;
 display: grid;
 justify-content: center;
 
@@ -34,13 +34,52 @@ h1{
 .divProfil{
     width: 400px;
     height: 150px;
-    margin-top: -230px;
     display: flex;
     justify-content: center;
-
+}
+.divDesinput{
+    width:400px;
+    height:300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.divDesinput input{
+    width: 400px;
+    height: 63px;
+    border-radius: 30px;60px;
+ border-radius: 30px;
+ border: none;
+outline-style: none;
+padding-left: 45px;
+padding-right: 45px;
+ font-family: "Poppins", sans-serif;
+ font-weight: 300;
+ font-style: normal;
+ font-size: 1.5em;
+ border-radius: 30px;
 
 }
-.imageProfil{
-    width: 150px;
-height: 150px;
+
+
+.divDesinput button{
+ width: 180px;
+ height: 60PX;
+ border-radius: 30px;
+ background-color: red;
+ font-size: 1.5em;
+ border: none;
+ outline-style: none;
 }
+.divDesinput button:hover{
+        background: black;
+        color: white;
+}
+.divDesinput button:active{
+    background: greenyellow;
+    color: orange;
+} 
+
+
+ 
+
